@@ -773,9 +773,187 @@ VLT=VL1+VL2=15V+8.5V=23.5V
 
 VT=VLT+VRT=8.9V+23.5V=32.4V
 
+18. Repita el problema 17 para el circuito de adelanto para encontrar el adelanto de fase en la figura 16-62.
+
+![image](https://user-images.githubusercontent.com/105687213/186590104-69ec22d1-0741-42af-a5e0-266bcae2e029.png)
+
+a)1 Hz
+
+X_L=2πfL=2π(1Hz)(10mH)=62.8 kΩ
+
+∅=〖tan〗^(-1) (R/X_L )=〖tan〗^(-1) (39Ω/62.8kΩ)=89.08 °
+
+La salida adelanta en 89.08° a la entrada.
+
+b) 100 Hz
+
+
+X_L=2πfL=2π(100Hz)(10mH)=6.28 Ω
+
+∅=〖tan〗^(-1) (R/X_L )=〖tan〗^(-1) (39Ω/6.28kΩ)=80.85 °
+
+La salida adelanta en 80.85° a la entrada.
+
+c) 1kHz
+
+X_L=2πfL=2π(1000Hz)(10mH)=62.83 Ω
+
+∅=〖tan〗^(-1) (R/X_L )=〖tan〗^(-1) (39Ω/62.83Ω)=31.82 °
+
+La salida adelanta en 31.82° a la entrada.
+
+d) 10kHz
+
+X_L=2πfL=2π(10000Hz)(10mH)=628.31 Ω
+
+∅=〖tan〗^(-1) (R/X_L )=〖tan〗^(-1) (39Ω/628.31Ω)=3.55 °
+
+La salida adelanta en 3.55° a la entrada.
 
 Impedancia y admitancia de circuitos RL en paralelo
 
+20. Repita el problema 19 para las siguientes frecuencias: Se debe determinar la impedancia expresada en forma polar.
+
+![image](https://user-images.githubusercontent.com/105687213/186590217-76c624fa-a291-41ed-a821-ba2a6e01923f.png)
+
+a) 1.5 Hz
+
+X_L=2πfL=2π(1.5Hz)(800μH)=7.53kΩ
+
+Z=((RX_L)/√(R^2+〖X_L〗^2 ))∠〖tan〗^(-1) (R/X_L )
+
+Z=(((12)(0.00753))/√(12^2+〖(0.00753)〗^2 ))∠〖tan〗^(-1) (12/0.00753)=7.52∠89.96° kΩ
+
+b) 3kHz
+
+X_L=2πfL=2π(3000Hz)(800μH)=15.07Ω
+
+Z=((RX_L)/√(R^2+〖X_L〗^2 ))∠〖tan〗^(-1) (R/X_L )
+
+Z=(((12)(15.07))/√(12^2+〖(15.07)〗^2 ))∠〖tan〗^(-1) (12/15.07)=9.38∠38.52° Ω
+
+c) 5kHz
+
+X_L=2πfL=2π(5000Hz)(800μH)=25.13Ω
+
+Z=((RX_L)/√(R^2+〖X_L〗^2 ))∠〖tan〗^(-1) (R/X_L )
+
+Z=(((12)(25.13))/√(12^2+〖(25.13)〗^2 ))∠〖tan〗^(-1) (12/25.13)=10.83 ∠25.53° Ω
+
+d) 10kHz
+
+X_L=2πfL=2π(10000Hz)(800μH)=50.27Ω
+
+Z=((RX_L)/√(R^2+〖X_L〗^2 ))∠〖tan〗^(-1) (R/X_L )
+
+Z=(((12)(50.27))/√(12^2+〖(50.27)〗^2 ))∠〖tan〗^(-1) (12/50.27)=11.67 ∠13.43° Ω
+
+Análisis de circuitos RL en paralelo
+
+22. Encuentre la corriente total y cada corriente de rama en la figura 16-64.
+
+![image](https://user-images.githubusercontent.com/105687213/186590273-bc2776ee-c3db-4627-b260-06b34fcb4c76.png)
+
+I_R=V_S/R=(10∠0° V)/(2.2kΩ∠0°)=4.54∠0° mA
+
+I_L=V_S/XL=(10∠0° V)/(3.5kΩ∠90°)=2.85∠-90° mA
+
+I_tot=√(〖I_R〗^2+〖I_L〗^2 )∠-〖tan〗^(-1) (I_L/I_R )=√((4.54)^2+(2.85)^2 )∠-〖tan〗^(-1) (2.85/4.54)=5.36∠-32.12° mA
+
+24. Repita el problema 23 para R =56Ω y L =330 µH.
+
+-Se debe determinar: a) Z, b) IR,  c)IL, d)ITotal, e) Angulo theta.
+
+![image](https://user-images.githubusercontent.com/105687213/186590429-2c2c592c-15f2-4244-8ad4-7491bbd67b2f.png)
+
+a) 
+
+X_L=2πfL=2π(2000Hz)(330μH)=10.05Ω
+
+Z=((RX_L)/√(R^2+〖X_L〗^2 ))∠〖tan〗^(-1) (R/X_L )
+
+Z=(((56)(10.05))/√(56^2+〖(10.05)〗^2 ))∠〖tan〗^(-1) (56/10.05)= 9.89∠ 79.83° Ω
+
+b)
+
+I_R=V_S/R=(50∠0° V)/(56Ω∠0°)=0.892 ∠0° A
+
+c) 
+I_L=V_S/XL=(50∠0° V)/(10.05Ω∠90°)=4.98 ∠-90° A
+
+d) 
+
+I_tot=√(〖I_R〗^2+〖I_L〗^2 )∠-〖tan〗^(-1) (I_L/I_R )=√((0.892)^2+(4.98)^2 )∠-〖tan〗^(-1) (4.98/0.892)=5.059∠-79.84° A
+
+e)
+
+θ=-〖tan〗^(-1) (IL/IR)=-〖tan〗^(-1) (4.98/0.892)= -79.84 °
+
+26. Determine la magnitud y el ángulo de fase de la corriente total que aparece en la figura 16-67.
+
+![image](https://user-images.githubusercontent.com/105687213/186590688-a4e883de-dba1-48a3-82ab-806f877d8261.png)
+
+I_tot=√(〖I_R〗^2+〖I_L〗^2 )∠-〖tan〗^(-1) (I_L/I_R )=√((5)^2+(8.3)^2 )∠-〖tan〗^(-1) (8.3/5)=9.69∠-58.93° mA
+
+Análisis de circuitos RL en serie-paralelo
+
+30. Para el circuito de la figura 16-69, determine lo siguiente:
+
+![image](https://user-images.githubusercontent.com/105687213/186591012-8ea0be78-ff92-4a8e-8132-d3f7df9fa198.png)
+ 
+X_L1=2πfL=2π(80kHz)(10mH)=5.026kΩ
+
+X_L2=2πfL=2π(80kHz)(8mH)=4.021KΩ
+
+Z1=R1+jXL1=3.3kΩ+j5.026 kΩ
+
+Z2=R2+jXL2=5.6kΩ+j4.021 kΩ
+
+Z1=√(〖(3.3)〗^2+〖(5.026)〗^2 )∠ 〖tan〗^(-1) (5.026/3.3)=6.01∠56.71°
+
+Z2=√(〖(5.6)〗^2+〖(4.021)〗^2 )∠ 〖tan〗^(-1) (4.021/5.6)=6.89∠35.68°
+
+a) I total
+
+Ztot=Z1+Z2=8.9kΩ+j9.047 kΩ
+
+Ztot=√(〖(Z1)〗^2+〖(Z2)〗^2 )  ∠ 〖tan〗^(-1) (Z2/Z1)= √(〖(8.9)〗^2+〖(9.047)〗^2 )  ∠ 〖tan〗^(-1) (9.047/8.9)=12.69∠45.47° kΩ
+
+Itot=Vs/Ztot=(18∠0°)/(12.69∠45.47°)=1.41 mA
+
+b) θ
+
+〖θ=tan〗^(-1) (9.047/8.9)=45.47°
+
+c) VR2
+
+VR2=I1∙R2=(3∠-56.71°)∙(5.6∠90°)=(16.8∠33.29°)  V
+
+d) VR3
+
+I1=Vs/Z1=(18∠0°)/(6.01∠56.71°)=3∠-56.71° mA
+
+I2=Vs/Z2=(18∠0°)/(6.89∠35.68°)=2.61∠-35.68° mA
+
+VR1=I1∙R1=(3∠-56.71°)∙(3.3∠0°)=(9.9∠-56.71°)  V
+
+e) VL1
+
+VL1=I1∙XL1=(3∠-56.71°)∙(5.026∠90°)=(15.07∠33.29°)  V
+
+f) VL2
+
+VR2=I2∙XL2=(2.61∠-35.68°)∙(4.021∠0°)=(10.49∠-35.68°)  V
+
+Potencia en circuitos RL
+
+38.  ¿Cuál es el factor de potencia en la figura 16-64?
+
+![image](https://user-images.githubusercontent.com/105687213/186591376-86b20906-122e-430f-b006-bab22627a88d.png)
+
+Z=√(R^2+〖XL〗^2  )  ∠ 〖tan〗^(-1) (XL/R)= √(〖(2.2)〗^2+〖(3.5)〗^2  )  ∠ 〖tan〗^(-1) (3.5/2.2)=4.13 ∠ 57.85°
+
+FP=cos⁡(θ)=cos⁡(57.85)=0.532 
 
 4. Vídeo
 
