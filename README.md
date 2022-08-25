@@ -476,7 +476,7 @@ Z=1028.99Ω y θ=-30.96°
 
 4. Vídeo
 
-
+https://www.youtube.com/watch?v=u0V3IDItvnc
 
 5.Conclusiones
 
