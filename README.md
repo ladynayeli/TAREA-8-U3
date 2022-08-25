@@ -472,6 +472,309 @@ Z=1028.99Ω y θ=-30.96°
 
 ![image](https://user-images.githubusercontent.com/105687213/186551697-2918d7a6-edde-4b71-9afd-5f38d7760a71.png)
 
+Z=((RX_C)/√(R^2+XC^2 ))∠-〖tan^(-1)〗⁡(R/Xc)
+
+Z=(((1200 Ω)(2000Ω))/√(〖(1200 Ω)〗^2+〖(2000Ω)〗^2 ))∠-〖tan^(-1)〗⁡〖(1200Ω/2000Ω)〗
+
+Z=1028.99∠-30.96°Ω
+
+Z=1028.99Ω y θ=-30.96°
+
+Análisis de circuitos RC en paralelo
+
+44. Para el circuito en paralelo de la figura 15-96, encuentre la magnitud de cada corriente de rama y la corriente total. ¿Cuál es el ángulo de fase entre el voltaje aplicado?
+
+![image](https://user-images.githubusercontent.com/105687213/186586408-2f8e59f7-5e7b-4561-a9d5-1aaea644da3c.png)
+
+46. Repita el problema 45 con R=5.6 kΩ, C1 = 0.047 µF, C2 =0.022 µF, y f = 500 Hz.
+
+![image](https://user-images.githubusercontent.com/105687213/186586507-5bf04268-a421-4077-b68d-4b9fe5ff499c.png)
+
+a. Z
+
+Z=((RX_C)/√(R^2+XC^2 ))∠-〖tan^(-1)〗⁡(R/Xc)
+
+Z=(((5600 Ω)(0.069 Ω))/√(〖(5600 Ω)〗^2+〖(0.069 Ω)〗^2 ))∠-〖tan^(-1)〗⁡〖((5600 Ω)/(0.069 Ω))〗
+
+Z=0.068∠-89.99 °Ω
+
+Z=1028.99Ω y θ=-89.99°
+
+b. I_R
+
+ I_R=V_S/R=(100∠0° mV)/(5600∠0 °Ω)=0.017∠0° mA
+
+c.I_C(tot) 
+
+I_C=V_S/X_C =(100∠0° mV)/(0.069∠-90 °Ω)=1449.27∠90° mA
+
+I_tot=I_R+jI_C=0.017mA+j1449.27 mA
+
+I_tot=√(I_R^2+I_C^2 )  ∠-〖tan^(-1)〗⁡(I_C/I_R )
+
+I_tot=√((0.017mA)^2+(1449.27mA))  ∠-〖tan^(-1)〗⁡((1449.27mA)/(0.017mA))
+
+I_tot=1449.27∠-89.99° mA
+
+I_tot=1449.27 mA
+
+d.θ:
+
+θ=〖tan^(-1)〗⁡(I_C/I_R )
+
+θ=89.99° 
+
+ Circuitos en Serie-Paralelo
+
+Análisis de circuitos RC en serie-paralelo
+
+50. ¿Es el circuito de la figura 15-100 predominantemente resistivo o predominantemente capacitivo?
+
+![image](https://user-images.githubusercontent.com/105687213/186587071-621ad4df-b596-4365-9454-607c940eb7e5.png)
+ 
+El circuito presente, es predomínate capacitivo, ya se puede observar que hay mayor presencia de capacitores dentro de él, es decir tenemos 3 capacitores C y 2 resistores R.
+
+52. Para el circuito de la figura 15-101, determine lo siguiente:
+
+![image](https://user-images.githubusercontent.com/105687213/186587105-bde4df75-066c-4b19-a374-f79cc36ec04f.png)
+
+a.I_tot
+
+La magnitud de la reactancia capacitiva es:
+
+X_C=1/2ᴨfC=1/2ᴨ(1kHz)(0.47µF) =0.33 kΩ
+
+ IR:
+ 
+RT= R1+R2||R3
+
+RT=89.85Ω
+
+I_R=V_S/R=(15∠0° V)/(89.85∠0 °Ω)=0.16∠0° A
+
+I_tot
+
+I_C=V_S/X_C =(15∠0° V)/(330∠-90 °Ω)=0.045∠90° A
+
+I_tot=I_R+jI_C=0.16 A+j0.045 A
+
+I_tot=√(I_R^2+I_C^2 )  ∠-〖tan^(-1)〗⁡(I_C/I_R )  
+
+I_tot=√((0.16A)^2+(0.045A))  ∠-〖tan^(-1)〗⁡((0.045A)/(0.16A))
+
+I_tot=0.17∠-15.70° A
+
+I_tot=0.17 A
+
+b.θ:
+
+θ=〖tan^(-1)〗⁡(I_C/I_R )
+
+θ=15.70° 
+
+Potencia en circuitos RC
+
+58. En la figura 15-88, ¿cuáles son la potencia real y la potencia reactiva?
+
+![image](https://user-images.githubusercontent.com/105687213/186588139-35c72fbf-9383-4f75-bd32-31535809ddd8.png)
+ 
+La potencia real,es aquella potencia que se encuentra en un resistor.  (Preal = I^2  R) 
+
+ La potencia reactiva,es aquella potencia que se encuentra en un capacitor.(Pr = I^2  Xc)
+
+60. Determine Preal, Pr, Pa, y FP para el circuito de la figura 15-101. Trace el triángulo de potencia.
+
+![image](https://user-images.githubusercontent.com/105687213/186588153-46339064-e567-44d3-a97d-a1cefcbe7700.png)
+
+Xc=1/2πfC=1/(2π(1kHz)(0.47μF))=0.34kΩ
+
+Z=R-jXc=89.86Ω-j0.34kΩ
+
+Z=√(〖(89.86kΩ)〗^2+〖(0.34kΩ)〗^2 )∠-tan^(-1)⁡〖0.34kΩ/89.86kΩ=89.86∠-0.22°kΩ〗
+
+PF=cos⁡θ=cos⁡〖-0.22°=1〗
+
+I=Vs/Z=15V/89.86kΩ=0.17mA
+
+Preal=VsI cos⁡θ=(15V)(0.17mA)(1)=2.55mW
+
+Pr=I^2 Xc=(0.17mA)^2 (0.34kΩ)=3.34mW
+
+Pa=I^2 Z=(0.17mA)^2 (89.86kΩ)=2.6mW
+
+62. Calcule la frecuencia de oscilación para el circuito de la figura 15-62 si todos los capacitores son de 0.0022 µF y todos los resistores de 10 kΩ.
+
+![image](https://user-images.githubusercontent.com/105687213/186588201-a976a3d1-6f40-47af-9574-4ec201567bf5.png)
+
+fr=1/(2π√6 RC)=1/(2π√6(10kΩ)(0.0022μF))=2.95kHz
+
+64. El valor rms del voltaje de señal que sale del amplificador A en la figura 15-105 es de 50 mV. Si la resistencia de entrada al amplificador B es de 10 kΩ, ¿qué tanto de la señal se pierde debido al capacitor de acoplamiento cuando la frecuencia es de 3 kHz?
+ 
+ ![image](https://user-images.githubusercontent.com/105687213/186588277-4a3eb7bd-0d7a-4e16-a2e2-b7c51dd55271.png)
+
+fc=1/2πRC
+
+fc=1/(2π(10kΩ)(0.047μF))=338.63Hz
+
+66. Los capacitores de la figura 15-107 han desarrollado una resistencia de fuga de 2 kΩ. Determine los voltajes de salida en esta condición para cada circuito.
+
+![image](https://user-images.githubusercontent.com/105687213/186588490-03a0bafe-901b-4d49-ab7a-72fab68fe468.png)
+ 
+a.Rth=RRfuga/(R+Rfuga)=((1.05kΩ)(2kΩ))/(1.05kΩ+2kΩ)=0.69kΩ
+
+Vth=(Rfuga/(R+Rfuga))Vs=(2kΩ/(1.05kΩ+2kΩ))5=3.28V
+
+
+Xc=1/2πfC=1/(2π(10Hz)(4.7μF))=3.4kΩ
+
+Vsal=(3.4kΩ/√(〖1.81kΩ〗^2+〖3.4kΩ〗^2 ))(0.1V)=0.01V
+
+
+b.Rth=RRfuga/(R+Rfuga)=((1.05kΩ)(2kΩ))/(1.05kΩ+2kΩ)=0.69kΩ
+
+
+Vth=(Rfuga/(R+Rfuga))Vs=(2kΩ/(1.05kΩ+2kΩ))5=3.28V
+
+Xc=1/2πfC=1/(2π(100Hz)(470pF))=3.39MΩ
+
+Vsal=(3.39MΩ/√(〖0.69kΩ〗^2+〖3.4kΩ〗^2 ))(3.28V)=3.28V
+
+	
+b) R1 abierto:
+
+Rth=RRfuga/(R+Rfuga)=((2kΩ)(2kΩ))/(2kΩ+2kΩ)=1kΩ
+
+Vth=(Rfuga/(R+Rfuga))Vs=(2kΩ/(2kΩ+2kΩ))5=2.5V
+
+Xc=1/2πfC=1/(2π(100Hz)(470pF))=3.39MΩ
+
+Vsal=(3.39MΩ/√(〖1kΩ〗^2+〖3.39MΩ〗^2 ))(2.5V)=2.5V
+
+c.R2 abierto
+
+Rth=RRfuga/(R+Rfuga)=((0.69kΩ)(2kΩ))/(0.69kΩ+2kΩ)=0.51kΩ
+
+Vth=(Rfuga/(R+Rfuga))Vs=(2kΩ/(0.69kΩ+2kΩ))5=3.72V
+
+Xc=1/2πfC=1/(2π(100Hz)(470pF))=3.39MΩ
+
+Vsal=(3.39MΩ/√(〖0.51kΩ〗^2+〖3.39MΩ〗^2 ))(3.72V)=3.72V
+
+d. R3 abierto
+
+Rth=RRfuga/(R+Rfuga)=((0.69kΩ)(2kΩ))/(0.69kΩ+2kΩ)=0.51kΩ
+
+Vth=(Rfuga/(R+Rfuga))Vs=(2kΩ/(0.69kΩ+2kΩ))5=3.72V
+
+Xc=1/2πfC=1/(2π(100Hz)(470pF))=3.39MΩ
+
+Vsal=(3.39MΩ/√(〖0.51kΩ〗^2+〖3.39MΩ〗^2 ))(3.72V)=3.72V
+
+---------------------------------------------------------------------------------
+
+Respuesta sinusoidal de circuitos RL en serie
+
+2. ¿Cuáles son las formas de onda de I, VR y VL en el problema 1?
+
+- I retrasada con respecto a Vs.
+- 
+- VR adelantado con respecto a Vs.
+- 
+- VL adelantado con respecto a Vs.
+
+Impedancia de circuitos RL en serie
+
+4. Determine la magnitud de la impedancia y el ángulo de fase en cada circuito de la figura 16-55. Trace los diagramas de impedancia.
+ 
+	Z=√(R^2+〖Xl〗^2 )=√(〖66Ω〗^2+〖150mΩ〗^2 )=66Ω
+ 
+θ=tan^(-1)⁡〖150mΩ/66Ω〗=0.13°Ω
+
+	Z=√(R^2+〖Xl〗^2 )=√(〖560Ω〗^2+〖3.08mΩ〗^2 )=560Ω
+ 
+θ=tan^(-1)⁡〖3.08mΩ/560Ω〗=31.51°mΩ
+
+6. Determine los valores de R y XL en un circuito RL en serie con los siguientes valores de impedancia total: 
+
+![image](https://user-images.githubusercontent.com/105687213/186588969-2de5b195-cfd9-4a65-9924-3a20d15bbe20.png)
+
+a) Z = 2.5∠72.5° kΩ
+
+R=0.95Ω,Xl=3.01Ω 
+
+b) Z = 998∠45° Ω 
+
+R=Xl=705.69Ω
+
+c) Z = 20 Ω + j45 Ω 
+
+R=20Ω,Xl=45Ω
+
+d) Z = 500∠35° Ω
+
+R=0.57Ω,Xl=0.4Ω
+
+Análisis de circuitos RL en serie
+
+8. Se aplica un voltaje sinusoidal de 5 V, 10 kHz al circuito de la figura 16-57. Calcule el voltaje a través de la resistencia total encontrada en el problema 7.
+
+![image](https://user-images.githubusercontent.com/105687213/186589098-35c73247-b13b-4bf2-9128-f5e57d276075.png)
+
+RT=(1000Ω×910Ω)/(1000Ω+910Ω)+330Ω=806.44Ω
+
+LT=(5mH×8.2mH)/(5mH+8.2mH)+1mH=4.11mH
+
+XL=2πfL=2π(10kHz)(4.11mH)=0.26kΩ
+
+Z=R+jXL=806.44Ω+j0.26Ω
+
+10. Exprese la corriente en forma polar para cada circuito de la figura 16-54.
+
+![image](https://user-images.githubusercontent.com/105687213/186589135-ac92404b-480e-4a0e-ad1f-4adb43319c23.png)
+
+	Z=R+jXL=100Ω+j50Ω
+
+Z=√(R^2+〖XL〗^2 )∠tan^(-1)⁡〖XL/R〗=√(〖100Ω〗^2+〖50Ω〗^2 )∠tan^(-1)⁡〖50Ω/100Ω〗=111.8∠26.57° Ω
+
+I=Vs/Z=(10∠0° V)/(111.8∠26.57° Ω)=89.45∠-26.57° Ma
+
+	Z=R+jXL=1.5kΩ+j1kΩ
+
+Z=√(R^2+〖XL〗^2 )∠tan^(-1)⁡〖XL/R〗=√(〖1.5kΩ〗^2+〖1kΩ〗^2 )∠tan^(-1)⁡〖1kΩ/1.5kΩ〗=1.8∠33.69° kΩ
+
+I=Vs/Z=(5∠0° V)/(1.8∠33.69° kΩ)=2.77∠-33.69° mA
+
+12. Determine el θ para el circuito de la figura 16-58.
+
+![image](https://user-images.githubusercontent.com/105687213/186589310-9902753d-8bce-46a9-a143-fb698a103943.png)
+
+XL=2πfL=2π(60Hz)(0.1H)=37.7Ω
+
+θ=tan^(-1)⁡〖XL/R〗=tan^(-1)⁡〖37.7Ω/47Ω〗=38.73°
+
+
+14. Trace las formas de onda de Vs, VR y VL en la figura 16-58. Muestre las relaciones de fase apropiadas.
+ 
+ ![image](https://user-images.githubusercontent.com/105687213/186589409-18108d96-366f-4a18-9632-dc26e66f4efd.png)
+
+Vs=θ=bronceado^(-1)⁡〖XL/R〗=bronceado^(-1)⁡〖37,7Ω/47Ω〗=38,73°
+
+VL=θ+45°=38.73°+45°=83.73°
+
+VR=θ-45°=38.73°-45°=-6.27°
+
+16. Determine la magnitud y el ángulo de fase del voltaje de fuente en la figura 16-60. 
+
+![image](https://user-images.githubusercontent.com/105687213/186589484-95360c76-fb23-445f-922c-b74430918a75.png)
+ 
+VRT=VR1+VR2=6.9V+2V=8.9V
+
+VLT=VL1+VL2=15V+8.5V=23.5V
+
+VT=VLT+VRT=8.9V+23.5V=32.4V
+
+
+Impedancia y admitancia de circuitos RL en paralelo
 
 
 4. Vídeo
